@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 	s.summary = 'Seeyou'
 	s.homepage = 'https://github.com/meiyoudev/IMYPublic'
 	s.authors = { 'suliangjin' => 'suliangjin@xiaoyouzi.com' }
-	s.source = { :git => 'git@github.com:zhouluyao2020/ZGDemo.git'}
+	s.source = { :git => 'git@github.com:zhouluyao2020/pod_bin_demo.git'}
         s.requires_arc = true
         s.ios.deployment_target = '9.0'
         s.source_files = 'Source/**/*.{h,m,c}'
