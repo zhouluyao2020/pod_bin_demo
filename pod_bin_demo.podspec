@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
         s.public_header_files = 'Source/**/*.h'
 
 
-        s.dependency 'Masonry', '~> 1.1.0'
+        s.dependency 'MJRefresh'
+        s.dependency 'SGQRCode'
+        s.dependency 'ZFDragableModalTransition'
 
 end

@@ -1,0 +1,13 @@
+{
+    "//":"archive-white-pod-list  制作二进制白名单",
+    "archive-white-pod-list" : [
+    "pod_bin_demo"
+    ],
+    "ignore-git-list": [
+        
+    ],
+    "ignore-http-list": [
+        
+    ]
+}
+   
