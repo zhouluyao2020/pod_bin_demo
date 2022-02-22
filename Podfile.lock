@@ -1,0 +1,24 @@
+PODS:
+  - MJRefresh (3.7.5)
+  - SGQRCode (3.5.1)
+  - ZFDragableModalTransition (0.6)
+
+DEPENDENCIES:
+  - MJRefresh
+  - SGQRCode
+  - ZFDragableModalTransition
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
+    - SGQRCode
+    - ZFDragableModalTransition
+
+SPEC CHECKSUMS:
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SGQRCode: 65d6170ddcf3feecc6e2f3601aac78ad93e56589
+  ZFDragableModalTransition: 0d294eaaba6edfcb9839595de765f9ca06a4b524
+
+PODFILE CHECKSUM: d2047026c193a13dbc79fad76a01219a75b12cca
+
+COCOAPODS: 1.11.2
