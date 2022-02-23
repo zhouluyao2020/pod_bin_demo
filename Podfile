@@ -8,5 +8,6 @@ target 'pod_bin_demo' do
   use_frameworks!
 
 pod 'OffcnQuestionKit', '~> 0.2.3'
+pod 'YYModel'
 
 end

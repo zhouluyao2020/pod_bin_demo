@@ -1,8 +1,8 @@
 # MARK: converted automatically by spec.py. @hgy
 
 Pod::Spec.new do |s|
-	s.name = 'pod_bin_demo'
-	s.version = '1.0.0'
+	s.name = 'pod_bin_demo2'
+	s.version = '1.2.0'
 	s.description = '我只是一个测试的，主要是想要 s.dependency'
 	s.license = 'MIT'
 	s.summary = 'Seeyou'
@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
 
 
         s.dependency 'OffcnQuestionKit', '~> 0.2.3'
+        s.dependency 'YYModel'
 end

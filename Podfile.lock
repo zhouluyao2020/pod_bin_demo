@@ -43,6 +43,7 @@ PODS:
 
 DEPENDENCIES:
   - OffcnQuestionKit (~> 0.2.3)
+  - YYModel
 
 SPEC REPOS:
   "git@github.com:zhouluyao2020/moudules_bin_repo.git":
@@ -73,6 +74,6 @@ SPEC CHECKSUMS:
   YYModel: 129c79244ded242854c080c65f877ea9e69df07e
   YYText: 2faf136ab6d895160929e971ae9e9f4f46ee3af8
 
-PODFILE CHECKSUM: 35883f336f805340764e10a58aa9844c8b721c55
+PODFILE CHECKSUM: 81c46840ee3c04bf8ef2c1efbd64f537dfd216f6
 
 COCOAPODS: 1.11.2
