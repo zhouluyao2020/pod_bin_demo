@@ -1,4 +1,8 @@
 ${PODS_ROOT}/Target Support Files/Pods-pod_bin_demo/Pods-pod_bin_demo-frameworks.sh
-${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
-${BUILT_PRODUCTS_DIR}/SGQRCode/SGQRCode.framework
-${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework
+${PODS_ROOT}/AliyunOSSiOS/AliyunOSSiOS.framework
+${PODS_ROOT}/Charts/Charts.framework
+${PODS_ROOT}/FLAnimatedImage/FLAnimatedImage.framework
+${PODS_ROOT}/MBProgressHUD/MBProgressHUD.framework
+${PODS_ROOT}/MJRefresh/MJRefresh.framework
+${PODS_ROOT}/OffcnQuestionKit/OffcnQuestionKit.framework
+${PODS_ROOT}/TZImagePickerController/TZImagePickerController.framework

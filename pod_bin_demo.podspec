@@ -15,8 +15,5 @@ Pod::Spec.new do |s|
         s.public_header_files = 'Source/**/*.h'
 
 
-        s.dependency 'MJRefresh'
-        s.dependency 'SGQRCode'
-        s.dependency 'ZFDragableModalTransition'
-
+        s.dependency 'OffcnQuestionKit', '~> 0.2.3'
 end

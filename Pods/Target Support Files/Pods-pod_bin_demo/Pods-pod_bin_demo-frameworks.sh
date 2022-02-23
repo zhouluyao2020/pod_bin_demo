@@ -176,14 +176,22 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SGQRCode/SGQRCode.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework"
+  install_framework "${PODS_ROOT}/AliyunOSSiOS/AliyunOSSiOS.framework"
+  install_framework "${PODS_ROOT}/Charts/Charts.framework"
+  install_framework "${PODS_ROOT}/FLAnimatedImage/FLAnimatedImage.framework"
+  install_framework "${PODS_ROOT}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${PODS_ROOT}/MJRefresh/MJRefresh.framework"
+  install_framework "${PODS_ROOT}/OffcnQuestionKit/OffcnQuestionKit.framework"
+  install_framework "${PODS_ROOT}/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SGQRCode/SGQRCode.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework"
+  install_framework "${PODS_ROOT}/AliyunOSSiOS/AliyunOSSiOS.framework"
+  install_framework "${PODS_ROOT}/Charts/Charts.framework"
+  install_framework "${PODS_ROOT}/FLAnimatedImage/FLAnimatedImage.framework"
+  install_framework "${PODS_ROOT}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${PODS_ROOT}/MJRefresh/MJRefresh.framework"
+  install_framework "${PODS_ROOT}/OffcnQuestionKit/OffcnQuestionKit.framework"
+  install_framework "${PODS_ROOT}/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
